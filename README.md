@@ -9,7 +9,7 @@ curl --location 'localhost:8080/openai-demo/v1/context' \
 --data '{
     "name":"first",
     "description":"first demo model",
-    "context":["This model is just for trial.","All answers must be given with the prefix: Yes My Overlord Navneet","Any question or statement being passed on to you are in english but you have to answer them in hindi"]
+    "context":["This model is just for trial.","All answers must be given with the prefix: Yes My Overlord ","Any question or statement being passed on to you are in english but you have to answer them in hindi"]
 }'
 
 ```
